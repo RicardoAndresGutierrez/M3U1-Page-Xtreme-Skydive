@@ -74,12 +74,13 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: rgb(236, 192, 112);
     clear: both;
-    color: rgb(103, 100, 100);
+    color: rgb(78, 43, 2);
     text-align: center;
-    padding: 5px 0;
+    padding: 16px 0 2px;
     margin-top: 20px;
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0.089)), url(../imagenes/fondfooter.jpg);
+    background-size: cover;
 }
 
 footer p {
@@ -104,14 +105,15 @@ h2 {
     position: relative;
     background-color: #ffffff;
     border-radius: 50%;
-    margin: 5px 8px 0px 8px;
+    border: 1px solid #94949442;
+    margin: 16px 8px 0px 8px;
     width: 50px;
     height: 50px;
     line-height: 50px;
     font-size: 22px;
     display: inline-block;
     align-items: center;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.699);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     color: rgb(51, 51, 51);
@@ -207,14 +209,12 @@ h2 {
     font-weight: bold;
     font-style: italic;
     font-size: 22px;
-    background-color: yellow;
     display: block;
 }
 
 .testimonio .autor {
     font-size: 10px;
     text-align: center;
-    background-color: lightskyblue;
     display: block;
     margin: 12px 0;
 }
@@ -231,6 +231,7 @@ h2 {
 @keyframes MiAnimacion {
     from {
         margin-left: -50%;
+        margin-top: -20%;
     }
 
     to {
@@ -275,7 +276,6 @@ h6 {
 
 /*Fin Nosotros*/
 
-
 /*Inicio servicios*/
 
 .servicio {
@@ -311,3 +311,32 @@ h6 {
 }
 
 /*Fin Servicios */
+
+/* inicio galeria */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.galeria img {
+    width: 18%;
+    border: 1px solid orange;
+    padding: 0.2em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2px;
+}
+
+/* fin galeria */
+
+/* inicio novedades */
+/* 
+.novedad hr {
+
+}
+
+estilos a definir en novedades */
+/* fin novedades */
+
