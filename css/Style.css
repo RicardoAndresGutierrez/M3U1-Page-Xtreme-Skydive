@@ -331,12 +331,61 @@ h6 {
 
 /* fin galeria */
 
-/* inicio novedades */
-/* 
-.novedad hr {
+/* inicio contacto */
 
+.contacto {
+    display: flex;
+    gap: 25px;
 }
 
-estilos a definir en novedades */
-/* fin novedades */
+.contacto div {
+    width: 100%;
+}
 
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+    
+}
+
+.formulario p label {
+    min-width: 80px; 
+    display: flex;
+    align-items: center;
+  }
+
+.formulario p input, p textarea {
+    width: 100%;
+    background: rgba(250, 229, 214, 0.816);
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+background: orange;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+font-size: 1rem;
+color: white;
+padding: 6px 20px;
+width: auto;
+position: relative;
+left: 5rem;
+cursor: pointer;
+}
+
+
+/* fin contacto */
