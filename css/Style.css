@@ -13,7 +13,7 @@ h1 {
 }
 
 header {
-    background-image: url(../Imagenes/fondohead.jpg);
+    background-image: url(../imagenes/fondohead.jpg);
     background-size: cover;
     padding: 16px 0;
 }
@@ -181,6 +181,11 @@ h2 {
 }
 
 /* inicio home */
+
+.fotohome {
+    text-align: center;
+  }
+
 .contenedor {
     display: flex;
     justify-content: space-between;
