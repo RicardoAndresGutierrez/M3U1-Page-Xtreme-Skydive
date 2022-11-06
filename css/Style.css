@@ -184,7 +184,7 @@ h2 {
 
 .fotohome {
     text-align: center;
-  }
+}
 
 .contenedor {
     display: flex;
@@ -393,3 +393,34 @@ p textarea {
 }
 
 /* fin contacto */
+
+@media screen and (min-width: 50px) and (max-width: 800px) {
+
+    .Xtitulo {
+        font-size: 85px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    /* inicio Index media */
+
+    .contenedor {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #de463b;
+
+    }
+
+    /* fin Index media */
+
+
+}
