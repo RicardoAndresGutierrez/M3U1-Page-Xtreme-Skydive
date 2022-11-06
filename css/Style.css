@@ -408,19 +408,78 @@ p textarea {
         flex-direction: column;
     }
 
-    /* inicio Index media */
+    /* inicio Index media revisar todo*/
 
     .contenedor {
 
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         background-color: #de463b;
 
+
+        .fotohome {
+            text-align: center;
+        }
+
+ 
+
+        .bienvenido {
+            width: 75%;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+
+        .bienvenido p {
+            font-size: 20px;
+        }
+
+        .testimonios {
+            width: 100%;
+        }
+
+        .testimonio {
+            background-color: bisque;
+            padding: 16px;
+        }
+
+        .testimonio .cita {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 22px;
+            display: block;
+        }
+
+        .testimonio .autor {
+            font-size: 10px;
+            text-align: center;
+            display: block;
+            margin: 12px 0;
+        }
+
+        .logoanimado {
+            margin: 0;
+            animation-name: MiAnimacion;
+            animation-duration: 4s;
+            animation-fill-mode: forwards;
+            position: relative;
+            bottom: -20px;
+        }
+
+        @keyframes MiAnimacion {
+            from {
+                margin-left: -50%;
+                margin-top: -20%;
+            }
+
+            to {
+                margin-left: 20%;
+            }
+        }
+
+
+        /* fin Index media */
+
     }
-
-    /* fin Index media */
-
-
 }
