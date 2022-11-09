@@ -244,8 +244,6 @@ h2 {
     margin: 12px 0;
 }
 
-
-
 /*fin home*/
 
 /*Inicio Nosotros*/
@@ -415,7 +413,7 @@ p textarea {
 
     /* Fin Head @media */
 
-    /* inicio Index media*/
+    /* inicio Home media*/
 
     .contenedor {
         display: flex;
@@ -423,12 +421,8 @@ p textarea {
     }
 
     .bienvenido {
-        padding-left: 30px;
+        padding-left: 8px;
         box-sizing: border-box;
-    }
-
-    .bienvenido p {
-        font-size: 20px;
     }
 
     .testimonios {
@@ -437,37 +431,34 @@ p textarea {
 
     .testimonios h2 {
         margin-bottom: 5px;
-        padding-left: 30px;
+        padding-left: 8px;
     }
 
     .testimonio {
         background-color: rgba(255, 228, 196, 0.729);
-        padding-left: 30px;
+        padding-left: 8px;
     }
 
-    /* Fin Index media*/
+    /* Fin Home media*/
 
     /*Inicio Nosotros @media*/
 
     .historia p {
-        font-size: 12px;
         padding: 8px;
     }
 
     .personas {
         display: flex;
-        /* justify-content: space-between; */
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
 
     .persona {
-        border: 1px solid gray;
-        border-radius: 5px;
-        width: 100%;
-        text-align: center;
-        padding: 13px;
-        box-sizing: border-box;
+        border-radius: 15px;
+        width: 75%;
+        padding: 8px;
     }
-
     /*Fin Nosotros @media*/
 
     /* fin @media */
