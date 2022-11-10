@@ -411,6 +411,12 @@ p textarea {
         flex-direction: column;
     }
 
+    .logo {
+        width: 50px;
+    }
+
+
+
     /* Fin Head @media */
 
     /* inicio Home media*/
@@ -459,6 +465,7 @@ p textarea {
         width: 75%;
         padding: 8px;
     }
+
     /*Fin Nosotros @media*/
 
     /* fin @media */
